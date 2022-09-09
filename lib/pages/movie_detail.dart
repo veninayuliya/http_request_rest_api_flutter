@@ -1,5 +1,3 @@
-// import 'dart:js';
-
 import 'package:flutter/material.dart';
 import 'package:http_request_rest_api_flutter/models/movie.dart';
 
@@ -21,13 +19,14 @@ class MovieDetail extends StatelessWidget {
     double height = MediaQuery.of(context).size.height;
     return Scaffold(
       appBar: AppBar(
-        title: Text("Movie Details"),
+        title: Text(movie.title),
       ),
       body: SingleChildScrollView(
         child: Center(
           child: Container(
             decoration: BoxDecoration(
-              gradient: LinearGradient(colors: [Colors.orange, Colors.yellow]),
+              gradient:
+                  LinearGradient(colors: [Colors.tealAccent, Colors.white]),
             ),
             child: Column(
               children: [

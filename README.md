@@ -1,5 +1,7 @@
-# http_request_rest_api_flutter
+## Movie List
 
-A new Flutter project.
+<img src="images/1.jpg" width="300">
 
-## Getting Started
+## Movie Detail
+
+<img src="images/2.jpg" width="300">
